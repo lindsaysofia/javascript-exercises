@@ -1,7 +1,7 @@
 const sumAll = function(firstNumber, secondNumber) {
   let smallerNumber = Math.min(firstNumber, secondNumber);
 
-  if (isNaN(smallerNumber) || smallerNumber < 0) {
+  if (isNaN(smallerNumber) || smallerNumber < 0 || typeof firstNumber === 'string' || typeof secondNumber === 'string') {
     return 'ERROR';
   }
 
