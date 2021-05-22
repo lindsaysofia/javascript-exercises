@@ -14,8 +14,8 @@ function multiply (arr) {
 	return arr.reduce((product, num) => product * num, 1);
 }
 
-function power() {
-	
+function power(base, power) {
+	return base ** power;
 }
 
 function factorial() {
