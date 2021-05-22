@@ -10,8 +10,8 @@ function sum (arr) {
 	return arr.reduce((sum, num) => sum + num, 0);
 }
 
-function multiply () {
-	
+function multiply (arr) {
+	return arr.reduce((product, num) => product * num, 1);
 }
 
 function power() {
